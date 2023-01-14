@@ -7,6 +7,24 @@ Content-Type: application/json
     "email": "salted@email.com",
     "password": "dkwdjwkdjwkdj"
 }
+### Signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "salted@email.com",
+    "password": "dkwdjwkdjwkdj"
+}
+
+### BAD Signin Password
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "salted@email.com",
+    "password": "dkwdj"
+}
+
 
 ### find a user with given Id
 GET http://localhost:3000/auth/1
