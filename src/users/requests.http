@@ -16,6 +16,9 @@ Content-Type: application/json
     "password": "dkwdjwkdjwkdj"
 }
 
+### Who am I, checking session 
+GET http://localhost:3000/auth/whoami
+
 ### BAD Signin Password
 POST http://localhost:3000/auth/signin
 Content-Type: application/json
@@ -43,3 +46,6 @@ Content-Type: application/json
     "email": "new-email@example.com"
 }
 
+
+### Signout
+POST http://localhost:3000/auth/signout
