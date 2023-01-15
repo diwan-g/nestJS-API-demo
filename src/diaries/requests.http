@@ -1,0 +1,13 @@
+
+### Create new Diary entry
+POST http://localhost:3000/diaries
+Content-Type: application/json
+
+{
+    
+    "entry": "Learning nestJs is quite a task",
+
+    "date_created": "2023-12-10T13:45:00.000Z",
+
+    "tags": "NestJs"
+}
